@@ -1,0 +1,145 @@
+html, body {
+    width: 100vw;
+    height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+    color: #363636;
+    font-family: 'Merriweather', 'Garamond', serif;
+}
+
+header {
+    height: 50vh;
+    width: 100vw;
+    margin-bottom: 1em;
+    background-image: url("assets/clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+}
+
+h1, h3 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+    text-shadow: 2px 2px 0px rgb(255 255 255 / 80%);
+    font-size: calc(3em + .3vw);
+    text-transform: uppercase;
+    margin: 0;
+    max-width: 430px;
+}
+
+h2, subtitle {
+    color: #404040;
+    text-transform: uppercase;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+subtitle {
+    font-size: calc(1em + .3vw);
+    margin-left: .5em;
+    text-shadow: 2px 2px 0px rgb(255 255 255 / 80%);
+}
+
+h2 {
+    z-index: 1;
+    transform:scaleY(1.2)
+}
+
+h3 {
+    padding-left: 1em;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #308dcf;
+    margin-bottom: 0;
+}
+
+ul {
+    padding-top: 1em;
+    line-height: 1.4em;
+}
+
+ul, a, li {
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: inherit;
+    letter-spacing: .2rem;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-top: 0;
+    padding-inline-start: 0;
+}
+
+li {
+    position: relative;
+    padding: 1em 2em;
+}
+
+li > a {
+    width: 100%;
+}
+
+li:first-child::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    border-bottom: solid 1px #308dcf;
+    left: 0;
+    top: 0%;
+    z-index: 1;
+}
+
+li::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    border-bottom: solid 1px #308dcf;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+    margin: 1em 4em;
+    background-color: rgb(223, 231, 232, .5);
+    height: 100%;
+    border-radius: 10px;
+}
+
+p {
+    padding: 0 2.5em;
+    line-height: 1.7;
+}
+
+p:first-child {
+    padding-top: 2.5em;
+}
+
+.splash{
+    padding: 4em 4em;
+    width: 70%;
+}
+
+.content {
+    position: relative;
+    background: #FFF;
+    height: 100%;
+}
+
+.divider {
+    position: absolute;
+    top: -80px;
+    background-image: url("assets/divider.svg");
+    height: 107px;
+    width: 100%;
+    z-index: 1;
+}
+
+

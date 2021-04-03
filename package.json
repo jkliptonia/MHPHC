@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy --formats=md,css,pdf",
+    "build": "eleventy",
     "watch": "eleventy --watch",
-    "serve": "eleventy --serve",
     "start": "eleventy --serve",
     "debug": "DEBUG=* eleventy"
   },

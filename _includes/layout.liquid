@@ -8,10 +8,20 @@
     <title>{{ title }}</title>
     <link rel="stylesheet" href="../index.css" />
   </head>
-  <header>    
-    <h1>{{ title }}</h1>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Cormorant+Garamond:wght@300;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <header>
+    <div class="splash">
+      <h1>{{ title }}</h1>
+      <subtitle>{{ subtitle }}</subtitle>
+    </div>
   </header>
-  <body role="main">
-    <nav>{{ content }}</nav>
+  <body>
+    <div role="main" class="content">
+      <div class="divider"></div>
+      <nav>
+        {{ content }}
+      </nav>
+    </div>
   </body>
-</html>
+</html> 

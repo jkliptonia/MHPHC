@@ -33,9 +33,15 @@ After any changes, you need to run `npm build`.  This will trigger 11ty to proce
 
 You can check out your changes by running `npm start`.  11ty will do some voodoo, and then you will see a link in your terminal which you can `CMD + Click` to load the site in your browser.
 
-When you are satisfied with your changes, you need to save your changes to Github, which is the code repository we're using.  Run `git add .` and then `git commit -m "[insert whatever message you'd like]"`.  This essentially creates a save of your work.  You can then store these changes to Github by running `git push origin mother` and the internet will save your changes, but not yet publish them to the site.
+When you are satisfied with your changes, you need to save your changes to Github, which is the code repository we're using.  Run `git add .` and then `git commit -m "[insert whatever message you'd like]"`.  This essentially creates a save of your work.  You can then store these changes to Github by running `git push origin mother` and the internet will save your changes, and will trigger a deployment.
 
-The final step is to deploy your changes.  This will publish them to the live website.
+Always double check on the live site that your changes have been deployed
+
+Steps:
+`npm build`
+`git add .`
+`git commit -m [insert message]`
+`git push origin mother`
 
 
 ## Troubleshooting
@@ -49,6 +55,7 @@ The final step is to deploy your changes.  This will publish them to the live we
 ## Resources
 
 - [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+- [Live Sit](https://relaxed-pasteur-3541c4.netlify.app)
 
 ## Misc Info
 
