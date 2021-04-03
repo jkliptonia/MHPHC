@@ -5,23 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <meta name="description" content="Newsletter Archive for Mental Health Public Health Connections (MHPHC)}">
+    <meta name="description" content="{{ description }}}">
     <meta name="keywords" content="Mental Health, Public Health, Suicidality, BU, Newsletter">
-    <meta name="title" content="The Mental Health Minute">
+    <meta name="title" content="{{ title }}">
 
-    <title>The Mental Health Minute</title>
+    <title>{{ title }}</title>
     <link rel="stylesheet" href="../styles/index.css" />
     <link rel="stylesheet" href="../styles/404.css" />
   </head>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Cormorant+Garamond:wght@300;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
   <header>
-      <subtitle>404 - Whoops! We can't find your page</subtitle>
+      <subtitle>{{ subtitle }}</subtitle>
   </header>
   <body>
     <img src="../assets/404.svg" alt="404 so sad" class="uhoh">
-    <p>Let's go <a href="/">home</a></p>
-
-    <footer><img src="../assets/logo.jpg" class="logo"  alt="MHPHC Logo">©2021 Mental Health Public Health Connections.</footer>
+    {{ content }}
+    <footer><img src="../assets/logo.jpg" class="logo"  alt="MHPHC Logo">©{{ "now" | date: "%Y" }} Mental Health Public Health Connections.</footer>
   </body>
 </html> 

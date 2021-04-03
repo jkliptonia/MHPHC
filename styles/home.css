@@ -1,0 +1,92 @@
+header {
+    height: 50vh;
+    width: 100vw;
+    margin-bottom: 1em;
+    background-image: url("../assets/clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+}
+
+ul {
+    padding-top: 1em;
+    line-height: 1.4em;
+}
+
+ul {
+    font-size: .8em;
+    list-style: none;
+    padding-top: 0;
+    padding-inline-start: 0;
+}
+
+li {
+    position: relative;
+    padding: 1em 3em;
+}
+
+li > a {
+    width: 100%;
+}
+
+li:first-child::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    border-bottom: solid 1px #9c9c9c;
+    left: 0;
+    top: 0%;
+    z-index: 1;
+}
+
+li::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    border-bottom: solid 1px #9c9c9c;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+    margin: 1em 4em;
+    background-color: rgb(223, 231, 232, .5);
+    height: 100%;
+    border-radius: 10px;
+}
+
+p {
+    padding: 0 2.5em;
+    line-height: 1.7;
+}
+
+p:first-child {
+    padding-top: 2.5em;
+}
+
+.splash{
+    padding: 4em 4em;
+    width: 70%;
+}
+
+.content {
+    position: relative;
+    background: #FFF;
+    height: 100%;
+    margin: auto;
+}
+
+.divider {
+    position: absolute;
+    top: -80px;
+    background-image: url("../assets/divider.svg");
+    height: 107px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+

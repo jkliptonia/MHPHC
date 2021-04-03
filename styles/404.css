@@ -1,0 +1,19 @@
+
+body {
+    padding-top: 10vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.uhoh {
+    margin-top: -3em;
+    width: 100vw;
+    height: auto;
+}
+
+p {
+    text-align: center;
+}

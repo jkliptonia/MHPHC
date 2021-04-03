@@ -150,6 +150,7 @@ footer {
     position: relative;
     background: #FFF;
     height: 100%;
+    margin: auto;
 }
 
 .divider {
@@ -161,4 +162,9 @@ footer {
     z-index: 1;
 }
 
+.uhoh {
+    margin-top: -3em;
+    width: 100vw;
+    height: auto;
+}
 

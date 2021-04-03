@@ -2,7 +2,7 @@
 title: The Mental Health Minute
 subtitle: MHPHC monthly archives
 description: Newsletter Archive for Mental Health Public Health Connections (MHPHC)
-layout: layout.liquid
+layout: home.liquid
 --- 
 
 Over the years, we here at Topcoder release weekly newsletters to our members to keep them updated with what is happening around the community with links to exciting challenges, informational blogs, and celebrating individual achievements.
